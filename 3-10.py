@@ -1,7 +1,7 @@
 class Dot(object):
 
   def __init__(self, *args):
-    self.point = list(args)
+    self.point = list(args[0])
 
   def __str__(self):
     return ','.join(map(str, self.point))
